@@ -171,3 +171,88 @@
         margin-top: 40.97px;
     }
 }
+
+@media (max-width: 768px) {
+    .film-cover-art {
+        margin-left: 40px;
+    }
+    
+    .film-info {
+        margin-left: 45px;
+    }
+    
+    .film-description {
+        max-width: 480px;
+    }
+    
+    .film-description p {
+        font-size: 16px;
+        line-height: 28px;
+    
+        color: inherit;
+    }
+    
+    .film-data {
+        margin-top: 26px;
+    }
+
+    .length-icon svg {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .length-info p {
+        font-size: 20px;
+        line-height: 25.16px;
+    
+        color: inherit;
+    }
+    
+    .film-rating {
+        margin-left: 40px;
+    }
+    
+    .film-rating svg{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .film-release-year {
+        margin-left: 50.33px;
+    }
+    
+    .film-release-year {
+        font-family: 'B612-Bold', sans-serif;
+        font-size: 20px;
+        line-height: 25.16px;
+    
+        color: inherit;
+    }
+    
+    .film-btn {
+        display: flex;
+        gap: 21px;
+    
+        margin-top: 40px;
+    }
+    
+    .btn-watch {
+        width: 164px;
+        height: 42px;
+
+        font-size: 14px;
+        line-height: 20.79px;
+    
+        color: inherit;
+    }
+    
+    .btn-trailer {
+        width: 95px;
+        height: 42px;
+
+        font-size: 14px;
+        line-height: 20px;
+    
+        color: inherit;
+    }
+}
