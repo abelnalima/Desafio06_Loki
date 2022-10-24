@@ -20,7 +20,6 @@
 
 .film-info {
     margin-left: 73px;
-
 }
 
 .film-description {
@@ -32,7 +31,7 @@
     font-size: 20px;
     line-height: 32px;
 
-    color: var(--white);
+    color: inherit;
 }
 
 .film-data {
@@ -59,7 +58,7 @@
     font-size: 24px;
     line-height: 29.16px;
 
-    color: var(--white);
+    color: inherit;
 }
 
 .film-rating {
@@ -80,7 +79,7 @@
     font-size: 24px;
     line-height: 29.16px;
 
-    color: var(--white);
+    color: inherit;
 }
 
 .film-btn {
@@ -103,7 +102,7 @@
     font-size: 16px;
     line-height: 21.79px;
 
-    color: var(--white);
+    color: inherit;
 }
 
 .btn-trailer {
@@ -119,5 +118,56 @@
     font-size: 16px;
     line-height: 22px;
 
-    color: var(--white);
+    color: inherit;
+}
+
+@media (max-width: 1024px) {
+    .film-cover-art {
+        margin-left: 80px;
+    }
+    
+    .film-info {
+        margin-left: 73px;
+    }
+    
+    .film-description {
+        max-width: 600px;
+    }
+    
+    .film-description p {
+        font-size: 18px;
+        line-height: 30px;
+    
+        color: inherit;
+    }
+    
+    .film-data {
+        margin-top: 35px;
+    }
+    
+    .length-info p {
+        font-size: 22px;
+        line-height: 27.16px;
+    
+        color: inherit;
+    }
+    
+    .film-rating {
+        margin-left: 50px;
+    }
+    
+    .film-release-year {
+        margin-left: 83.33px;
+    }
+    
+    .film-release-year {
+        font-size: 22px;
+        line-height: 27.16px;
+    
+        color: inherit;
+    }
+    
+    .film-btn {
+        margin-top: 40.97px;
+    }
 }
