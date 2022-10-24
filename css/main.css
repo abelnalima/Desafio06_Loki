@@ -1,0 +1,123 @@
+.main__content {
+    position: relative;
+    height: 100%;
+
+    display: flex;
+}
+
+.film-cover-art {
+    width: 184px;
+    height: 267px;
+
+    margin-left: 230px;
+    border-radius: 20px;
+
+    background: url('../image/cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.film-info {
+    margin-left: 73px;
+
+}
+
+.film-description {
+    max-width: 722px;
+}
+
+.film-description p {
+    font-family: 'B612-Regular', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: var(--white);
+}
+
+.film-data {
+    display: flex;
+
+    margin-top: 39px;
+}
+
+.film-length {
+    display: flex;
+}
+
+.length-icon {
+    padding-top: 5px;
+}
+
+.length-info {
+    margin-left: 14.5px;
+    padding-top: 8px;
+}
+
+.length-info p {
+    font-family: 'B612-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 29.16px;
+
+    color: var(--white);
+}
+
+.film-rating {
+    margin-left: 90px;
+}
+
+.film-rating svg{
+    margin-left: 7.33px;
+}
+
+.film-release-year {
+    margin-left: 113.33px;
+    padding-top: 8px;
+}
+
+.film-release-year {
+    font-family: 'B612-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 29.16px;
+
+    color: var(--white);
+}
+
+.film-btn {
+    display: flex;
+    gap: 21px;
+
+    margin-top: 43.97px;
+}
+
+.btn-watch {
+    width: 184px;
+    height: 52px;
+
+    border: none;
+    border-radius: 3px;
+
+    background: var(--blue);
+
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 21.79px;
+
+    color: var(--white);
+}
+
+.btn-trailer {
+    width: 115px;
+    height: 52px;
+
+    border: 1px solid var(--white);
+    border-radius: 3px;
+
+    background: var(--dark);
+
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--white);
+}
