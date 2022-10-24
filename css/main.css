@@ -480,3 +480,93 @@
         color: inherit;
     }
 }
+
+@media (max-width: 375px) {
+    .film-info {
+        width: 320px;
+    }
+
+    .film-description {
+        padding-top: 120px;
+    }
+    
+    .film-description p {
+        max-width: 310px;
+
+        font-size: 14px;
+        line-height: 19.6px;
+    
+        color: inherit;
+    }
+
+    .film-data {
+        transform: translateY(-305px);
+    }
+
+    .length-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .length-info p {
+        font-size: 16px;
+        line-height: 19.44px;
+    
+        color: inherit;
+    }
+    
+    .film-rating {
+        margin-left: 20.67px;
+        padding-top: 8px;
+    }
+    
+    .film-rating svg{
+        margin-left: 2px;
+
+        width: 16px;
+        height: 15px;
+    }
+    
+    .film-release-year {
+        margin-left: 25.67px;
+    }
+
+    .film-line {
+        width: 280px;
+        height: 2px;
+
+        background: rgba(196, 196, 196, 0.08);
+
+        margin-left: 24px;
+        transform: translateY(-180px);
+    }
+
+    .film-btn {
+        display: flex;
+        gap: 11px;
+
+        transform: translateY(-290px);
+    }
+    
+    .btn-watch {
+        width: 134px;
+        height: 35px;
+        
+        margin-left: 24px;
+    
+        font-size: 14px;
+        line-height: 19.07px;
+    
+        color: inherit;
+    }
+    
+    .btn-trailer {
+        width: 134px;
+        height: 35px;
+    
+        font-size: 14px;
+        line-height: 19.07px;
+    
+        color: inherit;
+    }
+}
