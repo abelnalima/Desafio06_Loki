@@ -40,3 +40,26 @@
         line-height: 112px;
     }
 }
+
+@media (max-width: 425px) {
+    header {
+        height: 255px;
+    }
+    .header-top {
+        margin-top: 60px;
+    }
+    
+    .header-top p {
+        font-size: 18px;
+        line-height: 21.87px;
+    }
+    
+    .header-bottom {
+        margin-top: 32px;
+    }
+    
+    .header-bottom p {
+        font-size: 64px;
+        line-height: 78px;
+    }
+}

@@ -256,3 +256,137 @@
         color: inherit;
     }
 }
+
+@media (max-width: 425px) {
+    .film-cover-art {
+        width: 50px;
+
+        transform: translateX(-100px);
+    }
+
+    .film-info {
+        position: absolute;
+        
+        width: 425px;
+        height: 250px;
+
+        border: none;
+        border-radius: 20px 20px 0px 0px;
+
+        background: #19191F;
+
+        margin: 0;
+        transform: translateX(-45px);
+        transform: translateY(345px);
+    }
+
+    .film-description {
+        max-width: 400px;
+
+        padding-top: 135px;
+        padding-left: 24px;
+    }
+    
+    .film-description p {
+        font-size: 15px;
+        line-height: 21px;
+    
+        color: inherit;
+    }
+
+    .film-data {
+        display: flex;
+
+        transform: translateY(-310px);
+    }
+    
+    .film-length {
+        display: flex;
+
+        padding-left: 24px;
+    }
+    
+    .length-icon {
+        padding-top: 7px;
+    }
+
+    .length-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .length-info {
+        margin-left: 14.5px;
+        padding-top: 8px;
+    }
+    
+    .length-info p {
+        font-size: 16px;
+        line-height: 19.44px;
+    
+        color: inherit;
+    }
+    
+    .film-rating {
+        margin-left: 45.67px;
+        padding-top: 3px;
+    }
+    
+    .film-rating svg{
+        margin-left: 5px;
+
+        width: 24px;
+        height: 23px;
+    }
+    
+    .film-release-year {
+        margin-left: 50.67px;
+        padding-top: 8px;
+    }
+    
+    .film-release-year {
+        font-size: 16px;
+        line-height: 19.44px;
+    
+        color: inherit;
+    }
+
+    .film-line {
+        width: 376px;
+        height: 2px;
+
+        background: rgba(196, 196, 196, 0.08);
+
+        margin-left: 24px;
+        transform: translateY(-165px);
+    }
+
+    .film-btn {
+        display: flex;
+        gap: 11px;
+
+        transform: translateY(-280px);
+    }
+    
+    .btn-watch {
+        width: 180px;
+        height: 40px;
+        
+        margin-left: 24px;
+    
+        font-size: 14px;
+        line-height: 19.07px;
+    
+        color: inherit;
+    }
+    
+    .btn-trailer {
+        width: 180px;
+        height: 40px;
+    
+        font-size: 14px;
+        line-height: 19.07px;
+    
+        color: inherit;
+    }
+}

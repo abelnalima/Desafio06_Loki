@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 720px;
-    background: gray;
+    background: var(--gray);
 }
 
 .content {
@@ -22,5 +22,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    filter: brightness(50%);
+    filter: brightness(40%);
+}
+
+@media (max-width: 425px) {
+    body {
+        height: 850px;
+
+        background: var(--white-200);
+    }
+
+    .content {
+        height: 849px;
+    }
 }

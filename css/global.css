@@ -37,6 +37,7 @@
 
 :root {
     --white: #FFFFFF;
+    --white-200: #F9FAFB;
     --dark: #131318;
     --gray: #7D7D7D;
 
@@ -54,4 +55,14 @@ main {
     height: 52.5%;
 
     color: var(--white);
+}
+
+@media (max-width: 425px) {
+    header {
+        height: 255px;
+    }
+
+    main {
+        height: 595px;
+    }
 }
